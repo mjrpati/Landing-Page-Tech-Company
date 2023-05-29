@@ -1,0 +1,37 @@
+.header-background{
+  background-color: rgb(6, 16, 134);
+  font-size: 26px;
+  color: white;
+}
+.header{
+  padding: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.svg{
+  height: 110px;
+  width: 200px;
+  margin-left: 40px;
+}
+.header ul{
+  display: flex;
+  gap: 50px;
+  padding: 30px;
+}
+.header li{
+  position: relative;
+}
+.header li::after{
+  content: '';
+  display: block;
+  background-color: #ffffff;
+  height:2px;
+  width: 0%;
+  position: absolute;
+  margin-top: 8px;
+  transition: 0.3s;
+}
+.header li:hover:after{
+  width:100%;
+}

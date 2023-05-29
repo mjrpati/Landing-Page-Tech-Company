@@ -1,0 +1,32 @@
+
+.main-container{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 30px;
+}
+.main-conteudo{
+  text-align: left;
+  gap: 20px;
+  align-self: center;
+ padding-left: 200px;
+}
+.main-conteudo h1{
+  padding: 30px;
+  font-size: 60px;
+}
+
+.main-conteudo p{
+  font-size: 22px;
+  padding: 30px;
+  line-height: 1.5;
+}
+.botao-main{
+  padding: 20px 32px;
+  background-color: rgb(6, 16, 134);
+  color: #ffffff; 
+  display: inline-block;
+  border-radius: 4px;
+  font-size: 20px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.8);
+  margin-left: 25px;
+}

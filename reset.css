@@ -1,0 +1,22 @@
+body{
+  margin: 0;
+  font-family: "poppins",Arial, Helvetica, sans-serif;
+}
+a{
+  text-decoration: none;
+  color: inherit;
+}
+h1,h2,h3,h4,ul,p{
+  margin: 0px;
+}
+ul{
+  padding: 0px;
+  list-style: none;
+}
+img{
+  width: 100%;
+  display: block;
+  height: auto;
+  border-radius: 4px;
+}
+
