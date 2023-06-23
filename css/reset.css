@@ -1,6 +1,7 @@
 body{
   margin: 0;
   font-family: "poppins",Arial, Helvetica, sans-serif;
+  margin-bottom: 800px;
 }
 a{
   text-decoration: none;
@@ -14,7 +15,7 @@ ul{
   list-style: none;
 }
 img{
-  width: 100%;
+ max-width: 100%;
   display: block;
   height: auto;
   border-radius: 4px;
