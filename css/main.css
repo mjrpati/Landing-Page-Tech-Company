@@ -31,6 +31,10 @@
   margin-left: 25px;
 }
 
+.botao-main:hover{
+  background-color: rgb(25, 40, 206);
+}
+
 @media (max-width: 1300px){
   .main-container{
     grid-template-columns: 1fr;
